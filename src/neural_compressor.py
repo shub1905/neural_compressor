@@ -160,5 +160,5 @@ def test_mlp(learning_rate=0.01, L1_reg=0.00, L2_reg=0.0001, n_epochs=100,
 
 if __name__ == '__main__':
     print test_mlp(learning_rate=0.05, L1_reg=0.00, L2_reg=0.0001, n_epochs=100,
-                   batch_size=128, n_hidden=[500, 500], n_hiddenLayers=2,
+                   batch_size=128, n_hidden=[1000, 500, 500, 1000], n_hiddenLayers=4,
                    verbose=False, smaller_set=True)
